@@ -8,11 +8,9 @@ const Home = () => {
         <p className='text-blue-200 text-4xl font-[Permanent Marker]'>Hi, my name is</p>
         <h1 className='text-xl sm:text-7xl font-bold text-red-400'>Abhishek Renjan</h1>
         <h2>I am a Full Stack Developer</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quod, cum nobis deleniti nesciunt fuga eos nisi, nostrum impedit quidem excepturi at ratione doloribus voluptate, ipsa pariatur nihil? Repellat, nisi.</p>
-          <div>
-            View Work<HiArrowNarrowRight/>
-          </div>
-      </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quod, cum nobis de</p>
+        <div className='text-white border-2 py-3 px-6 my-2 flex items-center hover:bg-orange-900 hover:border-orange-900'>View Work <HiArrowNarrowRight/></div>
+        </div> 
     </div>
   )
 }
